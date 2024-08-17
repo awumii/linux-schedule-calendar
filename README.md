@@ -7,6 +7,7 @@ It checks the current mainline version from kernel.org and predicts when the nex
 The calendar is updated automatically. You can import it using the webcal link below:  
 [https://awumii.github.io/linux-schedule-calendar/linux-schedule.ics](https://awumii.github.io/linux-schedule-calendar/linux-schedule.ics)
 
-Please do not use the .ics file directly.
+Please do not use the .ics file directly. Use the import function of your calendar.
 # Screenshots
-![Screenshot](<screenshot.png>)
+![Screenshot](.github/1.png)
+![Screenshot](.github/2.png)
