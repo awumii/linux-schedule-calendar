@@ -19,9 +19,11 @@ jobs:
       - name: Generate calendar
         run: python generate.py
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add linux-schedule.ics
           git commit -m 'auto: Update generated calendar'
-          git push origin main
+          git push https://${{ secrets.TOKEN }}@github.com/awumii/linux-schedule-calendar.git main
