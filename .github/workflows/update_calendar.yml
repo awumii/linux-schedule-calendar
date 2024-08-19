@@ -2,7 +2,7 @@ name: Update Kernel Release Calendar
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+    - cron: '0 * * * *' # Runs every day at midnight
 
 jobs:
   build:
@@ -22,6 +22,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add index.ics
+          git add linux-schedule.ics
           git commit -m 'auto: Update generated calendar'
           git push origin main
