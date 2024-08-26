@@ -17,13 +17,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.11-rc4
 DTSTART:20240818T000000
-DESCRIPTION:Linux Kernel 6.11-rc4 was released. This is currently the late
- st release candidate.
+DESCRIPTION:Linux Kernel 6.11-rc4 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.11-rc5
 DTSTART:20240825T000000
-DESCRIPTION:Linux Kernel 6.11-rc5 will be released.
+DESCRIPTION:Linux Kernel 6.11-rc5 was released. This is currently the late
+ st release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.11-rc6
