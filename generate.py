@@ -30,6 +30,11 @@ def add_event(title, date, description):
     calendar.add_component(mainline_event)
 
 def generate_release_schedule(version, release_date):
+    # When there are no release candidates yet
+    if ("rc" not in version):
+        add_event(f'Linux {version}', release_date, f'Linux Kernel {version} was released.')
+        return
+
     # Determine starting RC version number
     base_version, rc_version_string = version.split('-rc')
     rc_num = int(rc_version_string)
