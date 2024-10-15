@@ -7,13 +7,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.12-rc2
 DTSTART:20241006T000000
-DESCRIPTION:Linux Kernel 6.12-rc2 was released. This is currently the late
- st release candidate.
+DESCRIPTION:Linux Kernel 6.12-rc2 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.12-rc3
 DTSTART:20241013T000000
-DESCRIPTION:Linux Kernel 6.12-rc3 will be released.
+DESCRIPTION:Linux Kernel 6.12-rc3 was released. This is currently the late
+ st release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.12-rc4
