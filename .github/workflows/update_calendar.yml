@@ -1,8 +1,11 @@
-name: Update Kernel Release Calendar
+name: Update Kernel/Mesa Release Calendar
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # Runs daily at midnight (UTC)
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -10,6 +13,7 @@ jobs:
 
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +23,10 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: pip install requests beautifulsoup4 icalendar
-      - name: Generate calendar
-        run: python generate.py
+      - name: Generate Linux calendar
+        run: python generate-linux.py
+      - name: Generate Mesa calendar
+        run: python generate-mesa.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 Automatic calendar update"

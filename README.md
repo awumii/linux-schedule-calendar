@@ -1,13 +1,42 @@
-# Linux Schedule Calendar
-Add the Linux kernel release schedule to your calendar.
+# Linux & Mesa Release Schedule Calendar
 
-This repository contains a Python script that generates an iCalendar file with release candidates for the current kernel release cycle.
-It checks the current mainline version from kernel.org and predicts when the next releases will occur.
+Add the **Linux Kernel** and **Mesa** release schedules directly to your calendar!  
 
-The calendar is updated automatically. You can import it using the link:  
-[https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/linux-schedule.ics](https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/linux-schedule.ics)
+## Overview
 
-Please do not use the .ics file directly. Use the import function of your calendar to import the URL.
-# Screenshots
-![Screenshot](.github/1.png)
-![Screenshot](.github/2.png)
+This repository provides Python scripts that generate iCalendar files (`.ics`) for the **Linux Kernel** and **Mesa** release schedules. This repository also contains automatically updated calendars that can be directly imported to your calendar.
+
+### Features:
+- Predicts when the future **Linux Kernel** release candidates will be released.
+- Includes the official [Mesa release schedule](https://docs.mesa3d.org/release-calendar.html)
+
+## How to Use
+
+You can import the following iCalendar(s) directly into your calendar application:
+
+- **Linux Kernel**: [https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/linux-schedule.ics](https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/linux-schedule.ics)
+- **Mesa**: [https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/mesa-schedule.ics](https://raw.githubusercontent.com/awumii/linux-schedule-calendar/main/mesa-schedule.ics)
+
+> [!WARNING]
+> Please do **not** download the `.ics` file directly. Use your calendar application's **import from URL** feature to automatically keep your calendar updated.
+
+## Screenshots
+
+Here's a preview of what the calendars look like in your application:
+
+![Screenshot 1](.github/1.png)
+![creenshot 2](.github/2.png)
+
+## Requirements
+
+ - Python 3.x
+ - Linux
+ - Required Python packages:
+
+```
+pip install -r requirements.txt
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

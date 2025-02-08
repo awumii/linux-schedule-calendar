@@ -23,11 +23,11 @@ def fetch_mainline_release():
 
 # Create a new calendar event
 def add_event(title, date, description):
-    mainline_event = Event()
-    mainline_event.add('summary', title)
-    mainline_event.add('dtstart', date)
-    mainline_event.add('description', description)
-    calendar.add_component(mainline_event)
+    event = Event()
+    event.add('summary', title)
+    event.add('dtstart', date)
+    event.add('description', description)
+    calendar.add_component(event)
 
 def generate_release_schedule(version, release_date):
     # When there are no release candidates yet
@@ -76,13 +76,8 @@ def generate_release_schedule(version, release_date):
     add_event(f'Linux Kernel {base_version} Stable Release', stable_release_date, f'Stable release of Linux Kernel {base_version} is expected.{suffix}')
 
 def main():
-    # Fetch the currently latest mainline release. 
     version, release_date = fetch_mainline_release()
-    
-    # Generate the release schedule
     generate_release_schedule(version, release_date)
-    
-    # Save the calendar to a file
     with open('linux-schedule.ics', 'wb') as f:
         f.write(calendar.to_ical())
 
