@@ -11,11 +11,6 @@ DESCRIPTION:Release Version: 24.3.6\nNotes: This is the last planned relea
  se of the 24.3.x series.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mesa 25.0.1 Release
-DTSTART:20250305T000000
-DESCRIPTION:Release Version: 25.0.1
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Mesa 25.0.2 Release
 DTSTART:20250319T000000
 DESCRIPTION:Release Version: 25.0.2
