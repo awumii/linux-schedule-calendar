@@ -22,13 +22,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.15-rc5
 DTSTART:20250504T000000
-DESCRIPTION:Linux Kernel 6.15-rc5 was released. This is currently the late
- st release candidate.
+DESCRIPTION:Linux Kernel 6.15-rc5 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.15-rc6
 DTSTART:20250511T000000
-DESCRIPTION:Linux Kernel 6.15-rc6 will be released.
+DESCRIPTION:Linux Kernel 6.15-rc6 was released. This is currently the late
+ st release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.15-rc7
