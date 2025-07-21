@@ -27,13 +27,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.16-rc6
 DTSTART:20250713T000000
-DESCRIPTION:Linux Kernel 6.16-rc6 was released. This is currently the late
- st release candidate.
+DESCRIPTION:Linux Kernel 6.16-rc6 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.16-rc7
 DTSTART:20250720T000000
-DESCRIPTION:Linux Kernel 6.16-rc7 will be released.
+DESCRIPTION:Linux Kernel 6.16-rc7 was released. This is currently the late
+ st release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux Kernel 6.16 Stable Release
