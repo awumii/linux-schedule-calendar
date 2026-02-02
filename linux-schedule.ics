@@ -32,13 +32,17 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 6.19-rc7
 DTSTART:20260125T000000
-DESCRIPTION:Linux Kernel 6.19-rc7 was released. This is currently the late
+DESCRIPTION:Linux Kernel 6.19-rc7 was released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 6.19-rc8
+DTSTART:20260201T000000
+DESCRIPTION:Linux Kernel 6.19-rc8 was released. This is currently the late
  st release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux Kernel 6.19 Stable Release
-DTSTART:20260201T000000
-DESCRIPTION:Stable release of Linux Kernel 6.19 is expected. Please note t
- hat -rc8 might be released on this date instead.
+DTSTART:20260208T000000
+DESCRIPTION:Stable release of Linux Kernel 6.19 is expected.
 END:VEVENT
 END:VCALENDAR
