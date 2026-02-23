@@ -1,7 +1,44 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Linux 6.19
-DTSTART:20260208T000000
-DESCRIPTION:Linux Kernel 6.19 was released.
+SUMMARY:Linux 7.0-rc1
+DTSTART:20260222T000000
+DESCRIPTION:Linux Kernel 7.0-rc1 was released. This is currently the lates
+ t release candidate.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc2
+DTSTART:20260301T000000
+DESCRIPTION:Linux Kernel 7.0-rc2 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc3
+DTSTART:20260308T000000
+DESCRIPTION:Linux Kernel 7.0-rc3 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc4
+DTSTART:20260315T000000
+DESCRIPTION:Linux Kernel 7.0-rc4 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc5
+DTSTART:20260322T000000
+DESCRIPTION:Linux Kernel 7.0-rc5 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc6
+DTSTART:20260329T000000
+DESCRIPTION:Linux Kernel 7.0-rc6 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux 7.0-rc7
+DTSTART:20260405T000000
+DESCRIPTION:Linux Kernel 7.0-rc7 will be released.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Linux Kernel 7.0 Stable Release
+DTSTART:20260412T000000
+DESCRIPTION:Stable release of Linux Kernel 7.0 is expected. Please note th
+ at -rc8 might be released on this date instead.
 END:VEVENT
 END:VCALENDAR
