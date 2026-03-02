@@ -2,13 +2,13 @@ BEGIN:VCALENDAR
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc1
 DTSTART:20260222T000000
-DESCRIPTION:Linux Kernel 7.0-rc1 was released. This is currently the lates
- t release candidate.
+DESCRIPTION:Linux Kernel 7.0-rc1 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc2
 DTSTART:20260301T000000
-DESCRIPTION:Linux Kernel 7.0-rc2 will be released.
+DESCRIPTION:Linux Kernel 7.0-rc2 was released. This is currently the lates
+ t release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc3
