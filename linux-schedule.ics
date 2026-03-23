@@ -17,13 +17,13 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc4
 DTSTART:20260315T000000
-DESCRIPTION:Linux Kernel 7.0-rc4 was released. This is currently the lates
- t release candidate.
+DESCRIPTION:Linux Kernel 7.0-rc4 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc5
 DTSTART:20260322T000000
-DESCRIPTION:Linux Kernel 7.0-rc5 will be released.
+DESCRIPTION:Linux Kernel 7.0-rc5 was released. This is currently the lates
+ t release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.0-rc6
