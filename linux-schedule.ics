@@ -1,44 +1,7 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc1
-DTSTART:20260426T000000
-DESCRIPTION:Linux Kernel 7.1-rc1 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc2
-DTSTART:20260503T000000
-DESCRIPTION:Linux Kernel 7.1-rc2 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc3
-DTSTART:20260510T000000
-DESCRIPTION:Linux Kernel 7.1-rc3 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc4
-DTSTART:20260517T000000
-DESCRIPTION:Linux Kernel 7.1-rc4 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc5
-DTSTART:20260524T000000
-DESCRIPTION:Linux Kernel 7.1-rc5 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc6
-DTSTART:20260531T000000
-DESCRIPTION:Linux Kernel 7.1-rc6 was released.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux 7.1-rc7
-DTSTART:20260607T000000
-DESCRIPTION:Linux Kernel 7.1-rc7 was released. This is currently the lates
- t release candidate.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Linux Kernel 7.1 Stable Release
+SUMMARY:Linux 7.1
 DTSTART:20260614T000000
-DESCRIPTION:Stable release of Linux Kernel 7.1 is expected. Please note th
- at -rc8 might be released on this date instead.
+DESCRIPTION:Linux Kernel 7.1 was released.
 END:VEVENT
 END:VCALENDAR
