@@ -1,9 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 calendar = Calendar()
+calendar.add('prodid', '-//awumii//Schedule//PL')
+calendar.add('version', '2.0')
 
 def fetch_mainline_release():
     # Fetch mainline release version and date from kernel.org
@@ -17,7 +19,7 @@ def fetch_mainline_release():
     # Extract version and release date
     version = mainline_data[0].strong.text
     release_date = mainline_data[1].text.strip()
-    release_date = datetime.strptime(release_date, "%Y-%m-%d")
+    release_date = datetime.strptime(release_date, "%Y-%m-%d").date()
     
     return version, release_date
 
@@ -27,6 +29,10 @@ def add_event(title, date, description):
     event.add('summary', title)
     event.add('dtstart', date)
     event.add('description', description)
+    uid = title.replace(' ', '-').lower()
+    event.add('uid', f"{uid}@awumii")
+    event.add('dtstamp', datetime.now(timezone.utc))
+
     calendar.add_component(event)
 
 def generate_release_schedule(version, release_date):

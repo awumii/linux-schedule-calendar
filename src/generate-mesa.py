@@ -1,9 +1,11 @@
 import requests
 import csv
 from icalendar import Calendar, Event
-from datetime import datetime
+from datetime import datetime, timezone
 
 calendar = Calendar()
+calendar.add('prodid', '-//awumii//Schedule//PL')
+calendar.add('version', '2.0')
 
 # Create a new calendar event
 def add_event(title, date, description):
@@ -11,6 +13,9 @@ def add_event(title, date, description):
     event.add('summary', title)
     event.add('dtstart', date)
     event.add('description', description)
+    uid = title.replace(' ', '-').lower()
+    event.add('uid', f"{uid}@awumii")
+    event.add('dtstamp', datetime.now(timezone.utc))
     calendar.add_component(event)
 
 
@@ -37,7 +42,7 @@ def parse_schedule():
             notes = row[4].strip() if len(row) > 4 else ""
             
             if release_date_str and release_version:
-                release_date = datetime.strptime(release_date_str, "%Y-%m-%d")
+                release_date = datetime.strptime(release_date_str, "%Y-%m-%d").date()
                 releases.append({
                     "release_date": release_date,
                     "release_version": release_version,
