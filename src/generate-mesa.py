@@ -15,7 +15,8 @@ def add_event(title, date, description):
     event.add('description', description)
     uid = title.replace(' ', '-').lower()
     event.add('uid', f"{uid}@awumii")
-    event.add('dtstamp', datetime.now(timezone.utc))
+    dtstamp = datetime(date.year, date.month, date.day, tzinfo=timezone.utc)
+    event.add('dtstamp', dtstamp)
     calendar.add_component(event)
 
 
