@@ -41,15 +41,15 @@ SUMMARY:Linux 7.2-rc6
 DTSTART;VALUE=DATE:20260802
 DTSTAMP:20260802T000000Z
 UID:linux-7.2-rc6@awumii
-DESCRIPTION:Linux Kernel 7.2-rc6 was released. This is currently the lates
- t release candidate.
+DESCRIPTION:Linux Kernel 7.2-rc6 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.2-rc7
 DTSTART;VALUE=DATE:20260809
 DTSTAMP:20260809T000000Z
 UID:linux-7.2-rc7@awumii
-DESCRIPTION:Linux Kernel 7.2-rc7 will be released.
+DESCRIPTION:Linux Kernel 7.2-rc7 was released. This is currently the lates
+ t release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux Kernel 7.2 Stable Release
