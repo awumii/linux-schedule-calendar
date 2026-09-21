@@ -20,15 +20,15 @@ SUMMARY:Linux 7.3-rc3
 DTSTART;VALUE=DATE:20260913
 DTSTAMP:20260913T000000Z
 UID:linux-7.3-rc3@awumii
-DESCRIPTION:Linux Kernel 7.3-rc3 was released. This is currently the lates
- t release candidate.
+DESCRIPTION:Linux Kernel 7.3-rc3 was released.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.3-rc4
 DTSTART;VALUE=DATE:20260920
 DTSTAMP:20260920T000000Z
 UID:linux-7.3-rc4@awumii
-DESCRIPTION:Linux Kernel 7.3-rc4 will be released.
+DESCRIPTION:Linux Kernel 7.3-rc4 was released. This is currently the lates
+ t release candidate.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Linux 7.3-rc5
